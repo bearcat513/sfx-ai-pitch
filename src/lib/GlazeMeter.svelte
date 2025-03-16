@@ -1,5 +1,21 @@
-<script></script>
+<script>
+  let { value } = $props();
+</script>
 
-<div></div>
+<div class="slidecontainer">
+  <label for="myRange">AI Glaze Meter</label>
+  <input
+    type="range"
+    min="1"
+    max="100"
+    bind:value
+    class="slider"
+    id="myRange"
+  />
+</div>
 
-<style></style>
+<style>
+  #myRange {
+    width: 100%;
+  }
+</style>
