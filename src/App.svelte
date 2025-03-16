@@ -19,7 +19,7 @@
       glazeLevel = glazeOptions[25];
     }
     if (motherGlaze > 25 && motherGlaze <= 50) {
-      glazeLevel = glazeOptions[25];
+      glazeLevel = glazeOptions[50];
     }
     if (motherGlaze > 50 && motherGlaze <= 75) {
       glazeLevel = glazeOptions[75];
