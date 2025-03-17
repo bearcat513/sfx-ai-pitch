@@ -43,6 +43,8 @@
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+        mode: "no-cors",
       },
       body: JSON.stringify(data),
     };
@@ -120,8 +122,8 @@
     width: 100%;
   }
   .marquee {
-    height: 50px;
-    width: 80%;
+    height: 150px;
+    width: 100%;
 
     overflow: hidden;
     position: relative;
@@ -130,7 +132,7 @@
   .marquee div {
     display: block;
     width: 200%;
-    height: 30px;
+    height: 85px;
 
     position: absolute;
     overflow: hidden;
