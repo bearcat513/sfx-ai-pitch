@@ -43,7 +43,7 @@
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Origin: "0.0.0.0",
+        Origin: "https://snowfoxsolutionsdemo6.service-now.com",
       },
       body: JSON.stringify(data),
     };

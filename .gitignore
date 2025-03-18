@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 Presentation.md
+.env
+*.pdf
 
 # Editor directories and files
 .vscode/*
