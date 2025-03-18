@@ -43,8 +43,7 @@
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-        mode: "no-cors",
+        Origin: "0.0.0.0",
       },
       body: JSON.stringify(data),
     };
